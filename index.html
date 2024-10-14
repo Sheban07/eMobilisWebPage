@@ -1,15 +1,155 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>This is my first website</title>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <title>eMobilis Web Page</title>
 
-<h1>I'm learning web development</h1>
-<h2>I'm learning web development</h2>
-<h3>I'm learning web development</h3>
-<h4>I'm learning web development</h4>
-<h5>I'm learning web development</h5>
-<h6>I'm learning web development</h6>
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <style>
+        button{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        #btnSubmit{
+            background-color: yellow;
+            color: red;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .table{
+            width: 100%;
+            margin: 20px;
+            padding: 10px;
+            font-family: Cambria;
+        }
+        td{
+            padding: 12px;
+            text-align: center;
+            border: 1px solid grey;
+        }
+
+    </style>
+</head>
+<body style="background-color: black; color: white">
+
+<p style="font-family: Calibri Light,serif; color: pink; font-weight: bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse iusto magni maxime minima molestiae natus reprehenderit repudiandae sapiente similique! Aliquid cum dolor dolorem est expedita fugiat nostrum numquam. Deserunt?</p>
+
+<ol>
+    <li>AFC Leopards</li>
+    <li>Gor mahia</li>
+    <li>Sofapaka</li>
+    <li>Tusker FC</li>
+</ol>
+
+<ul>
+    <li>AFC Leopards</li>
+    <li>Gor mahia</li>
+    <li>Sofapaka</li>
+    <li>Tusker FC</li>
+</ul>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam cum incidunt iusto quas quibusdam, quod. Autem blanditiis cumque cupiditate distinctio, dolorum ea, ipsam, minima natus porro quam quisquam temporibus.</blockquote>
+
+<button>Click Me</button>
+<button id="btnSubmit">Submit Button</button>
+
+<img src="assets/photo5.jpg" width="200" height="200" alt="image"/>
+
+<table class="table">
+    <thead>
+        <th>Position</th>
+        <th>Team Name</th>
+        <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC leopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor mahia</td>
+        <td>28</td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total Ticket pricing</td>
+        <td>$5.50</td>
+    </tr>
+    </tfoot>
+</table>
+
+<table>
+    <thead>
+        <th>Position</th>
+        <th>Team Name</th>
+        <th>Points</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>AFC leopards</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Sofapaka</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Gor mahia</td>
+        <td>28</td>
+    </tr>
+
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total Ticket pricing</td>
+        <td>$5.50</td>
+    </tr>
+    </tfoot>
+</table>
+
+<form method="POST">
+    <label>Team Name</label>
+    <input type="text" placeholder="Enter Team Nmae" name="team_name">
+    <label>Season Points</label>
+    <input type="number" placeholder="Enter points" name="team_points">
+    <label>Team Enail</label>
+    <input type="email" placeholder="Enter Team Email" name="team_email">
+    <label>Team Picture</label>
+    <input type="file" name="team_pic">
+    <label>Home team color</label>
+    <select>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="purple">purple</option>
+    </select>
+
+    <input type="submit" value="Submit Team">
+    <input type="reset" value="Reset Form">
+</form>
+
+
+
 
 </body>
 </html>
