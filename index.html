@@ -17,14 +17,143 @@
 
 <div class="container-fluid">
     <div class="grid-container">
-        <div id="navbarDiv" style="background-color: red">1</div>
-        <div id="courseDiv" style="background-color: black">2</div>
-        <div id="videoDiv" style="background-color: purple">3</div>
-        <div id="imageDiv" style="background-color: yellow">4</div>
-        <div id="sCourseDiv" style="background-color: gray">5</div>
-        <div id="applicationForm" style="background-color: pink">6</div>
-        <div id="someDiv" style="background-color: green">7</div>
-        <div id="footDiv" style="background-color: indigo">8</div>
+        <div id="navbarDiv">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/photo2.jpg" alt="logo" width="40" height="40"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="public/team.html">Meet the team</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Python</a></li>
+                                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">6 moths courses</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="courseDiv">
+            <div class="d-flex-column p-3">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        Main courses
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">Python</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">JavaScript</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="videoDiv" style="background-color: purple">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/lrZmT2qsNrE?si=Z0w202QW5Dgy41x1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="imageDiv" class="img-container">
+            <img src="assets/myimage.png" class="img-thumbnail" alt="logo">
+        </div>
+        <div id="sCourseDiv">
+            <div class="d-flex-column p-3">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        Short courses
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">Cybersecurity</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">Android</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="applicationForm">
+            <h5 style="text-align: center">Application Form</h5>
+            <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label" style="color: #1a1d20">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="course" class="form-label" style="color: #1a1d20">Select a course of your choice</label>
+    <select class="form-control" id="course">
+        <option>Python</option>
+        <option>JavaScrip</option>
+        <option>SCC</option>
+        <option>HTML</option>
+    </select>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1" style="color: #1a1d20">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        </div>
+        <div id="someDiv">
+            <div class="d-flex-column p-3">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        Campus location
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">Westlands, Nairobi Kenya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/team.html">Kipro Center , ABC Avenue</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footDiv">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>tygfcuodnhjkvnfjsulhvioznkvnjilbbbbb</p>
+                    </div>
+                     <div class="col-md-4">
+                         <h5>Contact Us</h5>
+                         <p> Email: infor@emobilis.ac.ke</p>
+                          <p>Phone: 36798375489058</p>
+                          <p>address: westlands, Nairobi Kenya</p>
+                     </div>
+                     <div class="col-md-4">
+                         <h5>Follow Us</h5>
+                         <p> <a href="https://x.com/emobilis">Emobilis</a></p>
+                          <p><a HREF="https://facebook.com/emobilis">Emobilis Facebook</A></p>
+
+                     </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

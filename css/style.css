@@ -36,6 +36,7 @@ input[type="reset"]{
 
     .grid-container {
         display: grid;
+        grid-gap: 15px;
         grid-template-areas:
     'nd nd nd nd nd nd nd nd'
     'cd cd vd vd vd vd id id'
@@ -75,6 +76,7 @@ input[type="reset"]{
 
     .grid-container {
         display: grid;
+        grid-gap: 15px;
         grid-template-areas:
     'nd nd nd nd nd nd nd nd'
     'vd vd vd vd vd vd vd vd'
@@ -88,3 +90,15 @@ input[type="reset"]{
 }
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.img-container img{
+    max-width: 315px;
+    height: auto;
+}
